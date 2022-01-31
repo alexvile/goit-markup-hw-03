@@ -47,11 +47,16 @@ p {
   margin-left: auto;
 }
 .logo {
+  display: inline-block;
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
   line-height: 1.2;
   font-weight: 400;
   color: var(--title-text-color);
+}
+.logo-footer {
+  color: var(--primary-white-color);
+  margin-bottom: 20px;
 }
 .logo-first-part {
   color: var(--accent-color);
@@ -209,8 +214,10 @@ p {
   text-align: center;
 }
 /* Footer styles */
-.footer-list {
+.footer {
   background-color: black; /* !!!!!Временный фон !!!*/
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .contacts-f {
   font-size: 14px;
@@ -222,6 +229,9 @@ p {
 }
 .footer-address {
   font-style: normal;
+}
+.footer-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 /* ------------------Portfolio PAGE------------------*/
