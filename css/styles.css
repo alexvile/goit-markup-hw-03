@@ -267,7 +267,7 @@ p {
 .portf-cards {
   display: flex;
   flex-wrap: wrap;
-  padding: -15px;
+  margin: -15px;
 }
 .portf-card {
   width: calc(100% - 60px) / 3;
