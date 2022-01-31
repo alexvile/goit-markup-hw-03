@@ -141,7 +141,6 @@ p {
 .features-card {
   width: calc((100%-30px * 3) / 4);
   margin-right: 30px;
-  background-color: tomato;
 }
 .features-card:nth-child(4n) {
   margin-right: 0;
@@ -160,14 +159,18 @@ p {
   line-height: 1.71;
 }
 /* What we do section */
+.what-we-do-section {
+  margin-bottom: 94px;
+}
 .what-we-do-list {
   display: flex;
 }
-.what-we-do-item:not(:last-child) {
+.what-we-do-item:not(:nth-child(3n)) {
   margin-right: 30px;
 }
 
 .title {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -176,7 +179,22 @@ p {
   color: var(--title-text-color);
 }
 /* Our team section */
+.our-team-section {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+.our-team-list {
+  display: flex;
+}
+.our-team-item {
+  outline: 1px solid tomato;
+}
+.our-team-item:not(:nth-child(4n)) {
+  margin-right: 30px;
+}
 .team-subtitle {
+  margin-top: 30px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -184,6 +202,8 @@ p {
   color: var(--title-text-color);
 }
 .team-desc {
+  margin-top: 10px;
+
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
