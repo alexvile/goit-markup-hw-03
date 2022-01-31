@@ -1,0 +1,141 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --semitransparent-white-color: rgba(255, 255, 255, 0.6);
+  --bg-darl-color: #2f303a;
+  --bg-light-color: #f5f4fa;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+/* Header styles*/
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: var(--title-text-color);
+}
+.logo-first-part {
+  color: var(--accent-color);
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style-type: none;
+}
+.nav-item {
+  color: var(--title-text-color);
+}
+.contacts-h {
+  color: var(--primary-text-color);
+}
+.nav-item,
+.contacts-h {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+.nav-item:hover,
+.nav-item:focus,
+.contacts-h:hover,
+.contacts-h:focus {
+  color: var(--accent-color);
+}
+.nav-item.current {
+  color: var(--accent-color);
+}
+/* Hero section */
+.page-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  background-color: black; /* !!!!!временный фон !!!*/
+}
+.btn {
+  cursor: pointer;
+}
+.main-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+}
+/* Features section */
+.features-subtitle {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14px;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+.features-desc {
+  font-size: 14px;
+  line-height: 1.71;
+}
+/* What we do section */
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+/* Our team section */
+.team-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--title-text-color);
+}
+.team-desc {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+/* Footer styles */
+.footer-list {
+  background-color: black; /* !!!!!Временный фон !!!*/
+}
+.contacts-f {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--semitransparent-white-color);
+}
+.address-link {
+  color: var(--primary-white-color);
+}
+.footer-address {
+  font-style: normal;
+}
+/*                       Portfolio PAGE                 */
+/* Buttons */
+.portf-button {
+  color: var(--title-text-color);
+}
+/* Cards */
+.card-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+.card-desc {
+  font-size: 16px;
+  line-height: 1.87;
+}
