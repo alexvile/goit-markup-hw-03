@@ -160,6 +160,13 @@ p {
   line-height: 1.71;
 }
 /* What we do section */
+.what-we-do-list {
+  display: flex;
+}
+.what-we-do-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .title {
   font-weight: 700;
   font-size: 36px;
