@@ -36,8 +36,6 @@ p {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-  background-color: #ccff99;
-  outline: 1px solid black;
 }
 .header {
   border-bottom: 1px solid #ececec;
@@ -279,6 +277,16 @@ p {
 .portf-card {
   width: calc(100% - 60px) / 3;
   margin: 15px;
+}
+.card-img {
+  display: block;
+}
+.card-text {
+  padding-bottom: 20px;
+  padding-left: 24px;
+  border-right: 1px solid #eee;
+  border-left: 1px solid #eee;
+  border-bottom: 1px solid #eee;
 }
 
 .card-title {
