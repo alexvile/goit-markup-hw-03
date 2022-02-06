@@ -264,6 +264,9 @@ p {
 }
 
 /* Cards */
+.card {
+  color: inherit;
+}
 .portf-cards {
   display: flex;
   flex-wrap: wrap;
