@@ -6,6 +6,9 @@
   --semitransparent-white-color: rgba(255, 255, 255, 0.6);
   --bg-darl-color: #2f303a;
   --bg-light-color: #f5f4fa;
+  --button-color: #2196f3;
+  --button-main-color: #188ce8;
+  --button-sec-color: #f5f4fa;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -196,9 +199,6 @@ p {
 }
 .our-team-list {
   display: flex;
-}
-.our-team-item {
-  outline: 1px solid tomato;
 }
 .our-team-item:not(:nth-child(4n)) {
   margin-right: 30px;
