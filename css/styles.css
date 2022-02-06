@@ -105,8 +105,10 @@ p {
 /* Hero section */
 
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   text-align: center;
-  margin-bottom: 94px;
+  background-color: black; /* !!!!!временный фон !!!*/
 }
 
 .page-title {
@@ -120,7 +122,6 @@ p {
   text-transform: uppercase;
 
   color: var(--primary-white-color);
-  background-color: black; /* !!!!!временный фон !!!*/
 }
 .btn {
   cursor: pointer;
@@ -139,7 +140,8 @@ p {
 }
 /* Features section */
 .features-section {
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .features-list {
   display: flex;
@@ -165,7 +167,7 @@ p {
 }
 /* What we do section */
 .what-we-do-section {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 .what-we-do-list {
   display: flex;
@@ -235,8 +237,8 @@ p {
 
 /* ------------------Portfolio PAGE------------------*/
 .portf-section {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 /* Buttons */
 .buttons {
