@@ -154,7 +154,6 @@ p {
   margin-bottom: 10px;
 
   font-size: 14px;
-  font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--title-text-color);
@@ -176,7 +175,6 @@ p {
 
 .title {
   margin-bottom: 50px;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -275,7 +273,6 @@ p {
 }
 
 .card-title {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
