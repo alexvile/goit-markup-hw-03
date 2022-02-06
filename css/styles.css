@@ -131,6 +131,8 @@ p {
 }
 .btn {
   cursor: pointer;
+  border: none;
+  border-radius: 4px;
 }
 .main-button {
   display: inline-block;
