@@ -286,8 +286,7 @@ p {
   display: block;
 }
 .card-text {
-  padding-bottom: 20px;
-  padding-left: 24px;
+  padding: 20px 24px;
   border-right: 1px solid #eee;
   border-left: 1px solid #eee;
   border-bottom: 1px solid #eee;
